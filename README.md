@@ -1,8 +1,8 @@
 # DiPMInd-AOS-2026-code
 
-Rcpp implementations of distance-profile-based test statistics for assessing pairwise and joint (triple-wise) independence between random variables, developed in support of:
+Implementations of distance-profile-based test statistics for assessing pairwise and mutual independence between random variables, developed in support of:
 
-> [Author names]. "[Paper title]." *AOS*, 2026. [DOI / link once available]
+> Yaqing Chen and Paromita Dubey. "DiPMInd: Distance profile based mutual independence testing for random objects." Annals of Statistics (to appear). [(https://arxiv.org/abs/2412.06766)]
 
 ## Overview
 
@@ -80,7 +80,7 @@ DiPMInd-AOS-2026-code/
 If you use this code, please cite:
 
 ```
-[Author names] (2026). [Paper title]. AOS.
+Yaqing Chen and Paromita Dubey. "DiPMInd: Distance Profile based Mutual Independence testing for random objects." arXiv preprint arXiv:2412.06766 (Annals of Statistics (to appear)).
 ```
 
 ## License
@@ -89,4 +89,4 @@ Released under the MIT License — see `LICENSE` for details.
 
 ## Contact
 
-Paromita Dubey — paromitadubey@gmail.com
+Paromita Dubey — paromita@marshall.usc.edu
