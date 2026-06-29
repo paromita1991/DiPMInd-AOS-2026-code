@@ -1,4 +1,4 @@
-# DiPMInd-AOS-2026-code
+# DiPMInd-code
 
 Rcpp implementations of the joint distance-profile based test statistics for assessing pairwise and mutual independence between random objects, developed in:
 
