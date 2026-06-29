@@ -67,12 +67,6 @@ DiPMInd-AOS-2026-code/
 ├── src/
 │   ├── teststatRcppsorted_fastest.cpp
 │   └── mutualTeststatRcppFast.cpp
-├── R/
-│   └── (optional R wrapper/helper functions)
-├── examples/
-│   └── example_usage.R
-└── data/
-    └── (optional example or simulated datasets)
 ```
 
 ## Citation
