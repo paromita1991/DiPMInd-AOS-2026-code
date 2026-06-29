@@ -56,8 +56,6 @@ names(result2D) <- c("jt_stat", "jt_AD", "jt_W", "jt_ADsum",
 names(result3D) <- names(result2D)
 ```
 
-See `examples/example_usage.R` for a runnable example with simulated data.
-
 ## Repository structure
 
 ```
