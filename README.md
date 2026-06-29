@@ -83,5 +83,5 @@ Released under the MIT License — see `LICENSE` for details.
 
 ## Contact
 
-Yaqing Chen - yqchen@stat.rutgers.edu
+Yaqing Chen - yqchen@stat.rutgers.edu, 
 Paromita Dubey — paromita@marshall.usc.edu
