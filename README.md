@@ -1,6 +1,6 @@
 # DiPMInd-AOS-2026-code
 
-Implementations of distance-profile-based test statistics for assessing pairwise and mutual independence between random variables, developed in support of:
+Rcpp implementations of the joint distance-profile based test statistics for assessing pairwise and mutual independence between random objects, developed in:
 
 > Yaqing Chen and Paromita Dubey. "DiPMInd: Distance profile based mutual independence testing for random objects." Annals of Statistics (to appear). [(https://arxiv.org/abs/2412.06766)]
 
@@ -19,10 +19,12 @@ Both functions return a length-8 numeric vector with four weighting variants, co
 jt_stat, jt_AD, jt_W, jt_ADsum, prod_stat, prod_AD, prod_W, prod_ADsum
 ```
 
-- `stat` — unweighted squared deviation between the empirical joint CDF and the product of marginal CDFs
-- `AD` — weighted by the product of marginal variance terms, `F(1-F)`
-- `ADsum` — weighted by the sum of marginal variance terms
-- `W` — weighted by the product of marginal CDFs
+These correspond to the weight profiles in Section 3 of the paper [arXiv:2412.06766](https://arxiv.org/abs/2412.06766):
+
+- `stat` — trivial weight profile, $w \equiv 1$ (paper's "jt"/"prod")
+- `AD` — weighted by the inverse of the **product**, across variables, of each marginal distance-profile's variance term $F_k(r_k)\{1-F_k(r_k)\}$ (paper's "jt-AD"/"prod-AD")
+- `W` — weighted by the inverse of the **product**, across variables, of each marginal distance-profile CDF $F_k(r_k)$ (paper's "jt-F"/"prod-F")
+- `ADsum` — weighted by the inverse of the **sum** (rather than product) of the same marginal variance terms used in `AD`
 
 ## Inputs
 
@@ -81,4 +83,5 @@ Released under the MIT License — see `LICENSE` for details.
 
 ## Contact
 
+Yaqing Chen - yqchen@stat.rutgers.edu
 Paromita Dubey — paromita@marshall.usc.edu
